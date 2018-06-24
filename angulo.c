@@ -101,13 +101,10 @@ void angulo(void)
 		}
 		if(y>0 && z>0)
 		{
-			ang=0;
+			ang=1;
 		}	
 	}
-	if(ang==0)
-	{
-		ang=1;
-	}
+
 	*angp=(char)ang; /*Va de 0 a 180 grados*/
 }
 
