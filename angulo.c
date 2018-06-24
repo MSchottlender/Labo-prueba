@@ -104,12 +104,10 @@ void angulo(void)
 			ang=0;
 		}	
 	}
-	
+	if(ang==0)
+	{
+		ang=1;
+	}
 	*angp=(char)ang; /*Va de 0 a 180 grados*/
 }
-/*
- * CFile1.c
- *
- * Created: 22/6/2018 17:04:19
- *  Author: marti
- */ 
+
